@@ -24,7 +24,18 @@ After download the client, save the file where you want (e.g. `/home/user/defich
 - [Running a masternode](https://github.com/DeFiCh/ain/blob/master/doc/setup-masternodes.md)
 
 
-# Licenses
+## Howto Continue
+
+### Buy Hardware and setup a Raspberry Pi
+
+On [DefiNode](https://github.com/DefiNode/DeFiNode) you find a shopping list for the hardware of a Raspberry Pi node as well as a 3D case with DeFiChain logo. A good installation guide of the setup of a Raspberry Pi you can find there as well, however don't mix up this Defi Wallet with the docker installation at DefiNode.
+
+### Run your own Masternode
+
+The [DefiChain-Wiki](https://defichain-wiki.com/wiki/Masternode_installation_extended) tells you the steps to setup a masternode and the guys from [mydeficha.in](https://mydeficha.in) will serves you with operating your own masternode. 
+
+
+## Licenses
 
 By using `Defi-Wallet for Raspberry Pi` (this repo), you (the user) agree to be bound by [the terms of this license](LICENSE).
 
