@@ -9,8 +9,8 @@ The compiled Raspberry Pi client bases on the [DeFiChain](https://github.com/DeF
 
 - [DeFiChain.com](https://defichain.com/)
 - [DeFiCh/ain](https://github.com/DeFiCh/ain/README.md)
-- [Building from Scratch (32-Bit)](https://github.com/Martin8617/HowTo/blob/main/build-armv7l.md)
-- [Building from Scratch (64-Bit)](https://github.com/Martin8617/HowTo/blob/main/build-arm64.md)
+- [Build from Scratch (32-Bit)](https://github.com/Martin8617/HowTo/blob/main/build-armv7l.md)
+- [Build from Scratch (64-Bit)](https://github.com/Martin8617/HowTo/blob/main/build-arm64.md)
 
 
 ## Howto Start
