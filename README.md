@@ -1,9 +1,13 @@
 # Defi Node for Raspberry Pi
 
-The official DeFiChain client release of the Defi Node for Linux will not work for the Raspberrys. So I have made for myself a compiled version of the Defi Node for my Raspberry Pi 4B 4GB with official Raspberry Pi OS (32-Bit). This so called `armv7l` version is different to other Linux distributions. 
+The official DeFiChain client release of the Defi Node for Linux will not work for the Raspberrys. So I have made for myself a compiled version of the Defi Node for my Raspberry Pi 4B 4GB with official Raspberry Pi OS (32-Bit). This so called `armv7l` version is different to other Linux distributions as well as different to the Raspberry Pi 64-Bit version `arm8` respective `arm64`. 
 
 The compiled Raspberry Pi client bases on the [DeFiChain](https://github.com/DeFiCh/ain) original source code. No code was modyfied and was 100% taken from the DeFiChain repository.
 
+## Documentation
+- [Defich/ain](https://github.com/DeFiCh/ain/README.md)
+- [Building from Scratch (32-Bit)](https://github.com/Martin8617/HowTo/blob/main/build-armv7l.md)
+- [Building from Scratch (64-Bit)](https://github.com/Martin8617/HowTo/blob/main/build-arm64.md)
 
 ## Howto Start
 
@@ -18,7 +22,7 @@ The default data directory is `~/.defi`, with the default conf read from `~/.def
 After download the client, save the file where you want (e.g. `/home/user/defichain`), change to the `/bin` directory and run the Node with `./defid` - that's all...
 
 
-## Quick Start refers to Defich/ain
+## Quick Start refers to DeFiCh/ain
 - [Running a node](https://github.com/DeFiCh/ain/blob/master/doc/setup-nodes.md)
 - [Running a node with docker](https://github.com/DeFiCh/ain/blob/master/doc/setup-nodes-docker.md)
 - [Running a masternode](https://github.com/DeFiCh/ain/blob/master/doc/setup-masternodes.md)
