@@ -4,10 +4,14 @@ The official DeFiChain client release of the Defi Node for Linux will not work f
 
 The compiled Raspberry Pi client bases on the [DeFiChain](https://github.com/DeFiCh/ain) original source code. No code was modyfied and was 100% taken from the DeFiChain repository.
 
+
 ## Documentation
+
+- [DeFiChain.com](https://defichain.com/)
 - [Defich/ain](https://github.com/DeFiCh/ain/README.md)
 - [Building from Scratch (32-Bit)](https://github.com/Martin8617/HowTo/blob/main/build-armv7l.md)
 - [Building from Scratch (64-Bit)](https://github.com/Martin8617/HowTo/blob/main/build-arm64.md)
+
 
 ## Howto Start
 
@@ -23,6 +27,7 @@ After download the client, save the file where you want (e.g. `/home/user/defich
 
 
 ## Quick Start refers to DeFiCh/ain
+
 - [Running a node](https://github.com/DeFiCh/ain/blob/master/doc/setup-nodes.md)
 - [Running a node with docker](https://github.com/DeFiCh/ain/blob/master/doc/setup-nodes-docker.md)
 - [Running a masternode](https://github.com/DeFiCh/ain/blob/master/doc/setup-masternodes.md)
