@@ -1,4 +1,4 @@
-# Build DeFi Node on Raspberry Pi 4B 4GB with Raspberry OS 32-Bit
+# Build DeFi Node on Raspberry Pi 4B with Raspberry OS 32-Bit
 
 
 ## Documentation
@@ -41,7 +41,8 @@ cd ..
 ./autogen.sh
 ```
 ```
-export BDB_PREFIX='/home/pi/ain-1.8.1/db4' && ./configure BDB_LIBS="-L${BDB_PREFIX}/lib -ldb_cxx-4.8" BDB_CFLAGS="-I${BDB_PREFIX}/include" --prefix=$PWD/depends/arm-linux-gnueabihf --enable-glibc-back-compat --enable-reduce-exports LDFLAGS=-static-libstdc++
+export BDB_PREFIX='/home/pi/ain-1.8.1/db4'
+./configure BDB_LIBS="-L${BDB_PREFIX}/lib -ldb_cxx-4.8" BDB_CFLAGS="-I${BDB_PREFIX}/include" --prefix=$PWD/depends/arm-linux-gnueabihf --enable-glibc-back-compat --enable-reduce-exports LDFLAGS=-static-libstdc++
 ```
 And finally: 
 `make`
