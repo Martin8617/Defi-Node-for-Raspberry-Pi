@@ -1,4 +1,4 @@
-# Build DeFi Node on Raspberry Pi 4B 4GB with Raspberry OS 64-Bit
+# Build DeFi Node on Raspberry Pi 4B with Raspberry OS 64-Bit
 
 
 ## Documentation
