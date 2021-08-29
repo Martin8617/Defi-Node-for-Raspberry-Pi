@@ -20,7 +20,7 @@ Download source code and extract them to your /home/user/ directory:
 Now, you can either build from self-compiled depends or install the required dependencies:
 ```
 sudo apt-get install libssl-dev libevent-dev libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-test-dev libboost-thread-dev
-sudo apt-get install libminiupnpc-dev libzmq3-dev
+sudo apt-get install libminiupnpc-dev libzmq3-dev libsecp256k1-dev
 ```
 Make sure you install the build requirements mentioned above. Then, install the toolchain:
 
