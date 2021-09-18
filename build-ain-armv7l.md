@@ -15,7 +15,9 @@ Download source code and extract them to your /home/user/ directory:
 
 ### Install all dependencies
 
-`sudo apt-get install build-essential libtool autotools-dev automake pkg-config bsdmainutils python3 curl`
+```
+sudo apt-get install build-essential libtool autotools-dev automake pkg-config bsdmainutils python3 curl
+```
 
 Now, you can either build from self-compiled depends or install the required dependencies:
 ```
@@ -24,7 +26,9 @@ sudo apt-get install libminiupnpc-dev libzmq3-dev
 ```
 Make sure you install the build requirements mentioned above. Then, install the toolchain:
 
-`sudo apt-get install g++-arm-linux-gnueabihf`
+```
+sudo apt-get install g++-arm-linux-gnueabihf
+```
 
 ### Build Berkeley DB
 It is recommended to use Berkeley DB 4.8. If you have to build it yourself, you can use installation script included in contrib:
