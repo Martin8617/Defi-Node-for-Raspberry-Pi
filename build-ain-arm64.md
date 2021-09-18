@@ -8,10 +8,10 @@
 
 ## Source Code
 Download source code and extract them to your /home/user/ directory: 
-- ain-1.8.2 (https://github.com/DeFiCh/ain/releases)
+- ain-1.8.4 (https://github.com/DeFiCh/ain/releases)
 
 
-## Build ain-1.8.2
+## Build ain-1.8.4
 
 ### Install all dependencies
 
@@ -24,24 +24,26 @@ sudo apt-get install libminiupnpc-dev libzmq3-dev libsecp256k1-dev
 ```
 Make sure you install the build requirements mentioned above. Then, install the toolchain:
 
-`sudo apt-get install g++-aarch64-linux-gnu`
+```
+sudo apt-get install g++-aarch64-linux-gnu
+```
 
 ### Build Berkeley DB
 It is recommended to use Berkeley DB 4.8. If you have to build it yourself, you can use installation script included in contrib:
 ```
-cd /home/pi/ain-1.8.2/
-./contrib/install_db4.sh /home/pi/ain-1.8.2/
+cd /home/pi/ain-1.8.4/
+./contrib/install_db4.sh /home/pi/ain-1.8.4/
 ```
 
 ### Build executables
 ```
-cd /home/pi/ain-1.8.2/depends
+cd /home/pi/ain-1.8.4/depends
 make HOST=aarch64-linux-gnu NO_QT=1 
 cd ..
 ./autogen.sh
 ```
 ```
-export BDB_PREFIX='/home/pi/ain-1.8.2/db4'
+export BDB_PREFIX='/home/pi/ain-1.8.4/db4'
 ./configure BDB_LIBS="-L${BDB_PREFIX}/lib -ldb_cxx-4.8" BDB_CFLAGS="-I${BDB_PREFIX}/include" --prefix=$PWD/depends/aarch64-linux-gnu --enable-glibc-back-compat --enable-reduce-exports LDFLAGS=-static-libstdc++
 ```
 And finally: 
