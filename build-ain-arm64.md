@@ -15,7 +15,9 @@ Download source code and extract them to your /home/user/ directory:
 
 ### Install all dependencies
 
-`sudo apt-get install build-essential libtool autotools-dev automake pkg-config bsdmainutils python3 curl`
+```
+sudo apt-get install build-essential libtool autotools-dev automake pkg-config bsdmainutils python3 curl
+```
 
 Now, you can either build from self-compiled depends or install the required dependencies:
 ```
