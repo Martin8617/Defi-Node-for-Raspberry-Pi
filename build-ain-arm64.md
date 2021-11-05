@@ -8,7 +8,7 @@
 
 ## Source Code
 Download source code and extract them to your /home/user/ directory: 
-- ain-2.0.0 (https://github.com/DeFiCh/ain/releases)
+- Source Code (https://github.com/DeFiCh/ain/releases)
 
 
 ## Build ain-2.0.0
