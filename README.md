@@ -37,7 +37,10 @@ After download the client, save the file where you want (e.g. `/home/user/defich
 
 ### Buy Hardware and setup a Raspberry Pi
 
-On [DefiNode](https://github.com/DefiNode/DeFiNode) you find a shopping list for the hardware of a Raspberry Pi node as well as a 3D case with DeFiChain logo. A good installation guide of the setup of a Raspberry Pi you can find there as well, however don't mix up this Defi Wallet with the docker installation at DefiNode.
+On [DefiNode](https://github.com/DefiNode/DeFiNode) you find a shopping list for the hardware of a Raspberry Pi node as well as a 3D printer case program with DeFiChain logo. A good installation guide of the setup of a Raspberry Pi you can find there as well, however don't mix up this Defi Wallet with the docker installation at DefiNode.
+
+Watch out [DeFiNode Druckservice](https://www.gabrielkunzer.com/definode), there you can order your own DEFI case.
+
 
 ### Run your own Masternode
 
