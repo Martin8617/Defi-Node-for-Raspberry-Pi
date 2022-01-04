@@ -11,7 +11,7 @@ Download the latest source code from DefiCh/ain and extract them to your `/home/
 - [Source code (tar.gz)](https://github.com/DeFiCh/ain/releases)
 
 
-## Build ain-2.4.0
+## Build ain-2.5.0
 
 ### Install all dependencies
 
@@ -33,19 +33,19 @@ sudo apt-get install g++-arm-linux-gnueabihf
 ### Build Berkeley DB
 It is recommended to use Berkeley DB 4.8. If you have to build it yourself, you can use installation script included in contrib:
 ```
-cd /home/pi/ain-2.4.0/
-./contrib/install_db4.sh /home/pi/ain-2.4.0/
+cd /home/pi/ain-2.5.0/
+./contrib/install_db4.sh /home/pi/ain-2.5.0/
 ```
 
 ### Build executables
 ```
-cd /home/pi/ain-2.4.0/depends
+cd /home/pi/ain-2.5.0/depends
 make HOST=arm-linux-gnueabihf NO_QT=1 
 cd ..
 ./autogen.sh
 ```
 ```
-export BDB_PREFIX='/home/pi/ain-2.4.0/db4'
+export BDB_PREFIX='/home/pi/ain-2.5.0/db4'
 ./configure BDB_LIBS="-L${BDB_PREFIX}/lib -ldb_cxx-4.8" BDB_CFLAGS="-I${BDB_PREFIX}/include" --prefix=$PWD/depends/arm-linux-gnueabihf --enable-glibc-back-compat --enable-reduce-exports LDFLAGS=-static-libstdc++
 ```
 And finally: 
