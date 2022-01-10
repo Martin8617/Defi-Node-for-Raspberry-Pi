@@ -1,6 +1,6 @@
 # ![image](https://user-images.githubusercontent.com/79512509/135573091-5b12a44c-3654-459e-964b-0429d772763a.png) Defi Node for Raspberry Pi
 
-The official DeFiChain client release of the Defi Node for Linux will not work for the Raspberrys. So I have made for myself a compiled version of the Defi Node for my Raspberry Pi 4B 4GB with official Raspberry Pi OS (32-Bit). This so called `armv7l` version is different to other Linux `x86_64` distributions as well as different to the Raspberry Pi 64-Bit version `arm8` respective `arm64`. 
+The official DeFiChain client release of the Defi Node for Linux will not work for the Raspberrys. So I have made for myself a compiled version of the Defi Node for my Raspberry Pi 4B 4GB with official Raspberry Pi OS (32-Bit). This so called `armv7l` version is different to other Linux `x86_64` distributions as well as different to the Raspberry Pi 64-Bit version `arm8` respective `arm64` processor. 
 
 The compiled Raspberry Pi client bases on the [DeFiChain](https://github.com/DeFiCh/ain) original source code. No code was modyfied and was 100% taken from the DeFiChain repository.
 
