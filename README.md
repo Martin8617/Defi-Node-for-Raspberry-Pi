@@ -4,6 +4,7 @@ The official DeFiChain client release of the Defi Node for Linux will not work f
 
 The compiled Raspberry Pi client bases on the [DeFiChain](https://github.com/DeFiCh/ain) original source code. No code was modyfied and was 100% taken from the DeFiChain repository.
 
+> Note: I compiled the node and wallet on my Raspberry Pi with Raspberry OS bullseye (Debian v11). I got the feedback that you therefore have to upgrade your Raspberry to the same version as mine.
 
 ## Documentation
 
