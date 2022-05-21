@@ -49,4 +49,4 @@ export BDB_PREFIX='/home/pi/ain-2.7.1/db4'
 ./configure BDB_LIBS="-L${BDB_PREFIX}/lib -ldb_cxx-4.8" BDB_CFLAGS="-I${BDB_PREFIX}/include" --prefix=$PWD/depends/arm-linux-gnueabihf --enable-glibc-back-compat --enable-reduce-exports LDFLAGS=-static-libstdc++
 ```
 And finally: 
-`make`
+`make HOST=arm-linux-gnueabihf -j4`
