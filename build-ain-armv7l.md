@@ -33,7 +33,7 @@ sudo apt-get install g++-arm-linux-gnueabihf
 ### Build Berkeley DB
 It is recommended to use Berkeley DB 4.8. If you have to build it yourself, you can use installation script included in contrib:
 ```
-cd /home/pi/ain-2.8.0/
+cd /home/pi/ain-2.9.0/
 ./contrib/install_db4.sh /home/pi/ain-2.9.0/
 ```
 
