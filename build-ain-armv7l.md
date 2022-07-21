@@ -39,7 +39,7 @@ cd /home/pi/ain-2.9.2/
 
 ### Build executables
 ```
-cd /home/pi/ain-2.9.2depends
+cd /home/pi/ain-2.9.2/depends
 make HOST=arm-linux-gnueabihf NO_QT=1 
 cd ..
 ./autogen.sh
