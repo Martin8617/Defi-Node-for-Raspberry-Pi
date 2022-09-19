@@ -49,4 +49,10 @@ export BDB_PREFIX='/home/pi/ain-2.11.1/db4'
 ./configure BDB_LIBS="-L${BDB_PREFIX}/lib -ldb_cxx-4.8" BDB_CFLAGS="-I${BDB_PREFIX}/include" CXXFLAGS="-march=armv8-a+crc+crypto" --prefix=$PWD/depends/aarch64-linux-gnu --enable-glibc-back-compat --enable-reduce-exports LDFLAGS=-static-libstdc++
 ```
 And finally: 
-`make HOST=aarch64-linux-gnu -j4`
+```
+make HOST=aarch64-linux-gnu -j4
+```
+...and if you want you can create the package (uncompressed) as you get it from DeFiChain for the other platforms: 
+```
+make install
+```
