@@ -52,7 +52,7 @@ And finally:
 ```
 make HOST=arm-linux-gnueabihf -j4
 ```
-...and if you want you can create the package (uncompressed) as you get it from DeFiChain for the other platforms: 
+...and if you want you can create a package (e.g. /home/pi/ain-2.11.1/depends/arm-linux-gnueabihf/) which contains the files as you get them from DeFiChain for the other platforms: 
 ```
 make install
 ```
